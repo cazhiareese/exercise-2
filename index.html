@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<!-- comment here -->
+
+<html>
+<head>
+	
+	<title>Lleva's Portfolio</title>
+	<style>
+		
+
+		.flex-header{
+			display: flex;
+			align-content: flex-start;
+			justify-content: space-evenly;
+			flex-direction: row;
+			border-style: solid;
+            border-width: 3px;
+            margin-bottom: 30px;
+            margin-top: 30px;
+		}
+        .flex-featured {
+            display: flex;
+            border-style: solid;
+            border-width: 3px;
+            margin-bottom: 30px;
+            flex-direction: row;
+            flex-wrap: wrap;
+            justify-content: space-around;
+            align-items: baseline;
+           	margin: 15px ;
+
+        }
+
+        .flex-item {
+
+        	height: 200px;
+			width: 300px;
+            border-style: solid;
+            border-width: 2px;
+            border-color: red;
+            margin: 15px;
+        }
+
+       
+
+        #img-feat{
+        	height: 500px;
+        	width: 800px;
+        }
+
+        .flex-footer{
+			display: flex;
+			align-content: flex-end;
+		
+			flex-direction: row;
+			border-style: solid;
+            border-width: 3px;
+            margin-top: 30px;
+		}
+
+		#skills-content{
+			height: 200px;
+			width: 700px;
+		}
+
+		#biography{
+			height: 200px;
+			width: 700px;
+		}
+
+		
+
+    </style>
+</head>
+<body>
+
+	<div class="flex-header" id= "navbar">
+		
+		<img src="logo.png">
+
+		<a href="#featured"> Featured </a>
+		<a href="#projects"> My Projects </a>
+		<a href="#skills-content"> My Skills </a>
+		<a href="#biography"> Autobiography </a>
+		<a href="#footnote"> Contact Me </a>
+	</div>
+
+	<div> <h2> Featured Photo</h2> </div>
+	<div class= "flex-featured" id="fetaured">
+
+		<div class="flex-item" id="img-feat"> <img src="featured-photo.png"></div>
+		
+
+	</div>
+
+	<div> <h2> Featured Projects</h2> </div>
+	<div class="flex-featured" id="projects">
+
+
+		<div class="flex-item" id="project1">
+			<h3>Project 1</h3>
+			<p> lorem ipsum dolor </p>
+		</div>
+
+		<div class="flex-item" id="project2">
+			<h3>Project 2</h3>
+			<p> lorem ipsum dolor </p>
+		</div>
+
+		<div class="flex-item" id="project3">
+			<h3>Project 3</h3>
+			<p> lorem ipsum dolor </p>
+		</div>
+
+		<div class="flex-item" id="project4">
+			<h3>Project 4</h3>
+			<p> lorem ipsum dolor </p>
+		</div>
+		
+	</div>
+
+	<div class="flex-featured" id="skills">
+		<div class="flex-item" id="skills-content">
+			<h3>Skills</h3>
+			<p> lorem ipsum dolor </p>
+		</div>
+
+		<div class="flex-item" id="biography">
+			<h3>Autobiography</h3>
+			<p> lorem ipsum dolor </p>
+		</div>
+
+	</div>
+
+	<div class="flex-footer" id="footnote">
+		<div id="footercontent">
+			<img src="logo2.png">
+			<p>Address: </p>
+			<p>Contact me at: </p>
+			<ul>
+				<li>E-mail: clleva@up.edu.ph</li>
+				<li>Contact Number: 0911111111111</li>
+			</ul>
+
+			<a href="#navbar"> Back to top</a>
+		</div>
+
+	</div>
+	
+</body>
+</html>
